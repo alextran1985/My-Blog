@@ -64,7 +64,7 @@ input {
   width: 100%;
 }
 
-.card {
+.card, .card1 {
   display: block;
   background-color:#FFFFE0;;
   border: 1px solid #eceff1;
@@ -75,6 +75,7 @@ input {
   padding: 20px;
   width: 60vw;
 }
+
 
 .card::after {
   content: " ";
@@ -87,3 +88,8 @@ input {
   display: block;
   clear: both;
 }
+
+.clearfix {
+    display: flex;
+}
+

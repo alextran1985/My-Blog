@@ -2,8 +2,8 @@
 
 ## Description
 
-As a marketing student i want a peronal blog that I can showcase my thoughs and experienes. 
-Using localstrage to stored my blog post data and incorparate it with a light mode/dark mode when toggled.
+As a marketing student i want a peronal blog that I can showcase my thoughs and experiences. 
+Using localstorage to stored my blog post data and incorparate it with a light mode/dark mode when toggled.
 
 
 ## Installation
