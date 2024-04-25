@@ -17,9 +17,10 @@ body {
   li a {
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 110px;
     text-decoration: none;
   }
+
   
   p {
     font-size: 20px;

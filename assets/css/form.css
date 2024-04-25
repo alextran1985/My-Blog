@@ -45,10 +45,10 @@ label {
 }
 
 input {
-  background-color: whitesmoke;
+  background-color: ;
   border-radius: 3px;
   border-width: 1px;
-  color: #5f6368;
+  color: darkgray;
   font-size: 1.1em;
   height: 45px;
   line-height: 20px;
@@ -92,4 +92,5 @@ input {
 .clearfix {
     display: flex;
 }
+
 
