@@ -16,7 +16,7 @@ N/A
 
 ## Link
 
-![Link] (https://github.com/alextran1985/My-Blog)
+[Link] https://alextran1985.github.io/My-Blog/
 
 ## License
 
