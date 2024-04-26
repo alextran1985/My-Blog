@@ -8,6 +8,11 @@
   </head>
 
   <body>
+
+    <label class="switch col">
+      <input type="checkbox" id="theme-switcher" />
+      <span class="slider round"></span>
+    </label>
     
 
     <div class="clearfix">
@@ -16,7 +21,7 @@
           </div>
         <div class="card">
           <h2>What on your mind?</h2>
-          <form method="POST">
+          <form id="blog-form">
             <div class="input-group">
               <label for="first-name">UserName</label>
               <input type="text" name="first-name" id="first-name" placeholder="UserName " />
@@ -29,10 +34,12 @@
               <label for="content">Content</label>
               <input type="text" name="content" id="content" placeholder="Content goes here" />
             </div>
-        <input type="submit" value="Submit" />
+            <input type="submit" value="Submit" />
+
       </form>
     </div>
     </div>
+    <script src="./assets/js/form.js"></script>
   </body>
-
+  
 </html>
