@@ -1,24 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/blog.css" />
     <title>My First Blog</title>
-</head>
-<body>
-    <div class="container dark">
-        <div class="menu">
-          <ul>
-            <li><a href="#myfirstblog">My First Blog</a></li>
-            <li><a href="#backbtn">Back</a></li>
-            <li> <label class="switch col">
-                <input type="checkbox" id="theme-switcher">
-                <span class="slider round"></span>
-              </label>
-          </ul>
-        </div>
-        
+  </head>
+  <body>
+      <div class="container dark">
+       <h2>My First Blog</h2>
+        <button onclick="goBack()">Go Back</button>
+        <label class="switch col">
+          <input type="checkbox" id="theme-switcher" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+
       <div class="footer">
         <ul>
           <li><a href="#Portfolio">Portfolio</a></li>
@@ -26,11 +23,9 @@
           <li><a href="#Email">Email</a></li>
           <li><a href="#about">About</a></li>
         </ul>
-      </div>
-    </div>
-  </div>
+       </div>
+  
 
-  <script src="./assets/js/blog.js"></script>
-    
-</body>
+    <script src="./assets/js/blog.js"></script>
+  </body>
 </html>
