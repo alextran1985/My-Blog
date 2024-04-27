@@ -47,15 +47,13 @@ formElem.addEventListener('submit', function(event) {
 
     // Save the new data to Local Storage
 
-    // How does localStorage work(?)
-
    // let storedData = localStorage.getItem('testing');
    
    // 1) GRAB any saved Data (if any)
    let storedData = localStorage.getItem('blog_posts');
    console.log('Saved Data: ', storedData);
    console.log('Type of Data: ', typeof storedData);
-   // 2) parse the STRING/JSON DATA to sometihng more useful --> JS OBJ
+   // 2) parse the STRING/JSON DATA to something more useful --> JS OBJ
    let jsData = JSON.parse(storedData);
    console.log('Saved Data: ', jsData);
    console.log('Type of Data: ', typeof jsData);
@@ -72,3 +70,5 @@ localStorage.setItem('testing', "bingo chicken");
 if(!localStorage.getItem('blog_posts')) {
     localStorage.setItem('blog_posts', JSON.stringify([]));
 }
+document.getElementById("blog_posts").innerHTML = username;
+console.log(username);

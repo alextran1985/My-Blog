@@ -17,3 +17,26 @@ themeSwitcher.addEventListener('click', function () {
     container.setAttribute('class', 'dark');
   }
 });
+
+const blogPostsString = localStorage.getItem("blog_posts")
+const blogPosts = JSON.parse(blogPostsString);
+
+let text = "";
+for (let i = 0; i < blogPosts.length; i++) {
+  console.log(blogPosts[i])
+  text += "<div>"
+  text += "<h2>" + blogPosts[i]['title'] + "</h2>"
+  text += "<h4>" + blogPosts[i]['content'] + "</h4>"
+  text += "<h5>" + blogPosts[i]['username'] + "</h5>"
+
+
+ text += "<hr/>"
+
+ text += "</div>"
+
+
+}
+
+console.log(text)
+
+document.getElementById("blog").innerHTML = text;
