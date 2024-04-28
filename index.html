@@ -8,23 +8,28 @@
   </head>
 
   <body>
-
-    <label class="switch col">
-      <input type="checkbox" id="theme-switcher" />
-      <span class="slider round"></span>
-    </label>
-    
-
-    <div class="clearfix">
+    <div class="container dark">
+      <div style="display: flex">
+        <label class="switch col" style="margin-left: auto">
+          <input type="checkbox" id="theme-switcher" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class="clearfix">
         <div class="card1">
-            <h2>My First Blog</h2>
-          </div>
+          <h2>My First Blog</h2>
+        </div>
         <div class="card">
           <h2>What on your mind?</h2>
           <form id="blog-form">
             <div class="input-group">
               <label for="first-name">UserName</label>
-              <input type="text" name="first-name" id="first-name" placeholder="UserName " />
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="UserName "
+              />
             </div>
             <div class="input-group">
               <label for="content">Title</label>
@@ -32,14 +37,22 @@
             </div>
             <div class="input-group">
               <label for="content">Content</label>
-              <input type="text" name="content" id="content" placeholder="Content goes here" />
+              <input
+                type="text"
+                name="content"
+                id="content"
+                placeholder="Content goes here"
+              />
             </div>
-            <input type="submit" value="Submit" onclick="window.location = 'blog.html'"/>
-
-      </form>
-    </div>
+            <input
+              type="submit"
+              value="Submit"
+              onclick="window.location = 'blog.html'"
+            />
+          </form>
+        </div>
+      </div>
     </div>
     <script src="./assets/js/form.js"></script>
   </body>
-  
 </html>

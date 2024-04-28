@@ -1,8 +1,8 @@
-/* *,
+*,
 *::before,
 *::after {
   box-sizing: border-box;
-} */
+}
 
 body {
   font-size: 16px;
@@ -106,9 +106,7 @@ switch col{
 /* Dark Mode */
 .dark {
   background-color:#243447;
-  height: 100vh;
   color: #bebebe
- 
 }
 
 .dark li a {
@@ -123,7 +121,6 @@ switch col{
 .light {
   background-color: #f0ead6;
   color: black;
-  height: 100vh;
 }
 
 .light li a {
@@ -205,10 +202,13 @@ input:checked + .slider:before {
   margin: 20px;
 }
 
-.containerdark {
-  display: flex;
+.container {
+  height: 100vh;
 }
-;
+
+span.slider.round {
+  float:right;
+}
 
 
 

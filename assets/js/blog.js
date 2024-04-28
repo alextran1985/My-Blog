@@ -18,6 +18,7 @@ themeSwitcher.addEventListener('click', function () {
   }
 });
 
+// Display to Blog page
 const blogPostsString = localStorage.getItem("blog_posts")
 const blogPosts = JSON.parse(blogPostsString);
 

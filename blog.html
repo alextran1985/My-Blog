@@ -9,13 +9,16 @@
   <body>
     <div class="container dark">
       <h2>My First Blog</h2>
-      <button onclick="goBack()"><a href="index.html">Go Back</a>
-      </button>
-      <label class="switch col">
-        <input type="checkbox" id="theme-switcher" />
-        <span class="slider round"></span>
-      </label>
-      <hr/>
+      <div style="display: flex">
+        <div style="margin-left: auto;">
+          <button onclick="goBack()"><a href="index.html">Go Back</a></button>
+          <label class="switch col">
+            <input type="checkbox" id="theme-switcher" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+      <hr />
       <div id="blog">
         <!-- <h2>Blog Title</h2>
         <contents class="blogconten">Blog Content</contents>
