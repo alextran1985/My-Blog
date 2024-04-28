@@ -34,6 +34,8 @@ for (let i = 0; i < blogPosts.length; i++) {
 
  text += "</div>"
 
+//  localStorage.clear();
+
 
 }
 
