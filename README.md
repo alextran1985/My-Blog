@@ -12,7 +12,7 @@ N/A
 
 ## Screenshot
 
-![alt text](/assets/images/Screenshot 2024-04-30 at 12.18.07 AM.png)
+![alt text](assets/images/screenshot.png)
 
 ## Link
 
